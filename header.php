@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-scroll-container>
+<html lang="en" data-scroll-container class="is-smooth-scroll-compatible is-loading">
 
 <head>
     <meta charset="utf-8">
@@ -17,7 +17,7 @@
 
 </head>
 
-<body> 
+<body>
    <header>
        <div class="header-pc">
            <div class="content-menu-pc">
@@ -25,31 +25,31 @@
                    <div class="h-menu">
                        <div class="row align-items-center">
                            <div class="col-md-3">
-                               <div class="logo"><a href=""><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
+                               <div class="logo"><a href="index.php"><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
                            </div>
                            <div class="col-md-6">
                                <div class="cent-menu">
                                    <ul>
                                        <li>
-                                           <a href="" class="active">
+                                           <a href="about.php" class="active">
                                                <span class="data">ABOUT</span>
                                                <span class="data serif">ABOUT</span>
                                            </a>
                                        </li>
                                        <li>
-                                           <a href="" class="">
+                                           <a href="work.php" class="">
                                                <span class="data">WORKS</span>
                                                <span class="data serif">WORKS</span>
                                            </a>
                                        </li>
                                        <li>
-                                           <a href="" class="">
+                                           <a href="service.php" class="">
                                                <span class="data">SERVICES</span>
                                                <span class="data serif">SERVICES</span>
                                            </a>
                                        </li>
                                        <li>
-                                           <a href="" class="">
+                                           <a href="blog.php" class="">
                                                <span class="data">BLOG</span>
                                                <span class="data serif">BLOG</span>
                                            </a>

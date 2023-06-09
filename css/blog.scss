@@ -6,6 +6,13 @@
   font-weight: 500;
   font-family: Clash;
   margin-bottom: 42px;
+  @media (max-width: 1600px) {
+    font-size: 34px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
 }
 .content-blog-cate {
   padding-left: 30px;
@@ -20,6 +27,10 @@
   .avarta {
     flex: 0 0 459px;
     margin-right: 33px;
+    @media (max-width: 1600px) {
+      margin-right: 24px;
+      flex: 0 0 45%;
+    }
     .avr {
       position: relative;
       overflow: hidden;
@@ -45,6 +56,9 @@
         color: #101010;
         font-size: 24px;
         font-weight: 600;
+        @media (max-width: 1200px) {
+          font-size: 20px;
+        }
         &:hover {
           color: $oran;
         }
@@ -55,6 +69,10 @@
       color: #888888;
       font-size: 18px;
       font-weight: 600;
+      @media (max-width: 1200px) {
+        font-size: 16px;
+        padding: 8px 0 24px 0;
+      }
     }
   }
 }
@@ -115,6 +133,9 @@
   color: #888888;
   font-size: 18px;
   font-weight: 600;
+  @media (max-width: 1200px) {
+    font-size: 16px;
+  }
   .avarta {
     position: relative;
     overflow: hidden;
@@ -153,6 +174,12 @@
     font-family: Clash;
     line-height: 1.1;
     color: #101010;
+    @media (max-width: 1600px) {
+      font-size: 34px;
+    }
+    @media (max-width: 1200px) {
+      font-size: 26px;
+    }
   }
   .desc {
     padding: 16px 0 24px 0;
@@ -191,5 +218,183 @@
     padding: 0 24px;
     border: 0;
     outline: none;
+  }
+}
+
+.content-detail {
+  max-width: 948px;
+  margin: 0 auto;
+  .title-top-detail {
+    padding: 64px 0;
+    h1 {
+      font-size: 76px;
+      font-weight: 500;
+      line-height: 1.1;
+      margin-bottom: 32px;
+      font-family: Clash;
+    }
+    .tags-detail {
+      ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        li {
+          margin-right: 8px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      a {
+        display: inline-flex;
+        padding: 16px 32px;
+        border: 1px solid #E7E7E7;
+        border-radius: 50px;
+        &:hover {
+          color: #fff;
+          background: $oran;
+        }
+      }
+    }
+  }
+}
+
+.detail-text {
+  color: #585858;
+  margin-bottom: 42px;
+  p {
+    margin-bottom: 32px;
+    img {
+      max-width: 100%;
+    }
+  }
+  h2, h3, h4, h5, h6 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #101010;
+  }
+}
+.t-share {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.share-detail {
+  margin-bottom: 64px;
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      margin-right: 24px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+.detail-material {
+  ul {
+    list-style: none;
+    li {
+      margin-bottom: 16px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  a {
+    display: inline-flex;
+    border-bottom: 1px solid $oran;
+    color: $oran;
+  }
+}
+.box-detail-content {
+  padding: 0 0 100px 0;
+}
+
+.list-work-cate {
+  .row {
+    margin: 0 -16px;
+    >div {
+      padding: 0 16px;
+      margin-bottom: 56px;
+    }
+  }
+}
+.item-work {
+  position: relative;
+  .avarta {
+    position: relative;
+    margin-bottom: 24px;
+    img {
+      transition: .4s all !important;
+      &:hover {
+        filter: grayscale(1);
+      }
+    }
+  }
+  .info {
+    color: #888888;
+    font-size: 18px;
+    a {
+      display: block;
+      font-size: 24px;
+      font-weight: 500;
+      font-family: Clash;
+      margin-bottom: 4px;
+    }
+  }
+}
+.filter-work {
+  border-bottom: 1px solid #E7E7E7;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tag-filter {
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      margin-right: 8px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  a {
+    display: inline-flex;
+    padding: 16px 24px;
+    line-height: inherit;
+    font-weight: 600;
+    border: 1px solid #E7E7E7;
+    border-radius: 50px;
+    &.active, &:hover {
+      color: $oran;
+      border: 1px solid $oran;
+    }
+  }
+}
+.all-txt-filter {
+  font-size: 16px;
+  color: #585858;
+  span {
+    margin-left: 4px;
+    color: $oran;
+    font-weight: 600;
+  }
+}
+.title-work-page {
+  padding: 80px 0;
+  font-size: 80px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  font-family: Clash;
+  svg {
+    margin-right: 24px;
   }
 }

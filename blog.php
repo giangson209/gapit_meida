@@ -27,38 +27,38 @@
                             <div class="list-news">
                                 <div class="item-news">
                                     <div class="avarta">
-                                        <div class="avr"><a href=""><img src="images/home/ar1.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="avr"><a href="blog-detail.php"><img src="images/home/ar1.png" class="img-fluid w-100" alt=""></a></div>
                                     </div>
                                     <div class="info">
-                                        <h3><a href="">10 SaaS Campaign Examples We Love + Tips to Steal Their Ideas</a></h3>
+                                        <h3><a href="blog-detail.php">10 SaaS Campaign Examples We Love + Tips to Steal Their Ideas</a></h3>
                                         <div class="desc">
                                             B2B Marketing, Brand Story Storytelling, Brand Statefy, Conten Marketing, Content Strategy
                                         </div>
-                                        <div class="btn-main"><a href="">READ MORE</a></div>
+                                        <div class="btn-main"><a href="blog-detail.php">READ MORE</a></div>
                                     </div>
                                 </div>
                                 <div class="item-news">
                                     <div class="avarta">
-                                        <div class="avr"><a href=""><img src="images/home/ar2.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="avr"><a href="blog-detail.php"><img src="images/home/ar2.png" class="img-fluid w-100" alt=""></a></div>
                                     </div>
                                     <div class="info">
-                                        <h3><a href="">10 SaaS Campaign Examples We Love + Tips to Steal Their Ideas</a></h3>
+                                        <h3><a href="blog-detail.php">10 SaaS Campaign Examples We Love + Tips to Steal Their Ideas</a></h3>
                                         <div class="desc">
                                             B2B Marketing, Brand Story Storytelling, Brand Statefy, Conten Marketing, Content Strategy
                                         </div>
-                                        <div class="btn-main"><a href="">READ MORE</a></div>
+                                        <div class="btn-main"><a href="blog-detail.php">READ MORE</a></div>
                                     </div>
                                 </div>
                                 <div class="item-news">
                                     <div class="avarta">
-                                        <div class="avr"><a href=""><img src="images/home/ar3.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="avr"><a href="blog-detail.php"><img src="images/home/ar3.png" class="img-fluid w-100" alt=""></a></div>
                                     </div>
                                     <div class="info">
-                                        <h3><a href="">10 SaaS Campaign Examples We Love + Tips to Steal Their Ideas</a></h3>
+                                        <h3><a href="blog-detail.php">10 SaaS Campaign Examples We Love + Tips to Steal Their Ideas</a></h3>
                                         <div class="desc">
                                             B2B Marketing, Brand Story Storytelling, Brand Statefy, Conten Marketing, Content Strategy
                                         </div>
-                                        <div class="btn-main"><a href="">READ MORE</a></div>
+                                        <div class="btn-main"><a href="blog-detail.php">READ MORE</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                                             <div class="iem-grid-blog">
                                                 <div class="avarta"><a href=""><img src="images/home/ar1.png" class="img-fluid w-100" alt=""></a></div>
                                                 <div class="info">
-                                                    <h3><a href="">10 SaaS Campaign Examples We Love + Tips to Steal Their Ideas</a></h3>
+                                                    <h3><a href="blog-detail.php">10 SaaS Campaign Examples We Love + Tips to Steal Their Ideas</a></h3>
                                                     <div class="desc">Graphic Design, Photography</div>
                                                 </div>
                                             </div>
