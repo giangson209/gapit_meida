@@ -89,10 +89,17 @@
         </div>
     </div>
 </footer>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <script type="text/javascript" src="js/lib/jquery.easeScroll.js"></script>
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script> -->
 <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/lib/slick.min.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script type="text/javascript" src="js/lib/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/lib/ScrollMagic.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/lib/animation.gsap.min.js"></script>
+<script type="text/javascript" src="js/lib/debug.addIndicators.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
