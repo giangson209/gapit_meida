@@ -3,7 +3,7 @@
     <section class="box-blog-cate">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 side-blog-left">
                     <div class="side-bar-blog">
                         <div class="sidebar">
                             <div class="avarta text-center"><img src="images/blog/sidebar-blog.png" class="img-fluid w-100" alt=""></div>
@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 side-blog-right">
                     <div class="content-blog-cate">
                         <div class="item-content-blog">
                             <div class="title-blog-cate">Resource</div>

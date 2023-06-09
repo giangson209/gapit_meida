@@ -297,6 +297,12 @@
         </div>
     </div>
 </main>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+<script type="text/javascript" src="js/lib/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/lib/ScrollMagic.js"></script>
+<script type="text/javascript" src="js/lib/animation.gsap.min.js"></script>
+<script type="text/javascript" src="js/lib/debug.addIndicators.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 <script type="text/javascript" src="https://www.jqueryscript.net/demo/image-parallax-blur-scale/dist/jquery-parallax.js"></script>
 <?php include 'footer.php';?>
 <script type="text/javascript" src="js/about.js"></script>

@@ -347,6 +347,359 @@
     font-size: 18px;
     line-height: 150%;
     color: #888888;
+  }
+}
 
+.form_group{
+  position: relative;
+}
+.container-contact{
+  background: #101010;
+  border-radius: 64px;
+  max-width: 1720px;
+  margin: auto;
+  padding: 100px 15px;
+  @media(max-width: 1600px){
+    max-width: 1500px;
+  }
+  @media(max-width: 1440px){
+    max-width: 100%;
+    border-radius: 0;
+  }
+  @media(min-width: 768px) and (max-width: 1024px){
+    background: transparent;
+    padding: 30px 0;
+    position: relative;
+    .scroll-circle{
+      position: absolute;
+      top: 0px;
+      right: 15px;
+    }
+    .container{
+      max-width: 90%;
+      padding: 40px;
+      background: #000;
+      border-radius: 42px;
+    }
+    .btn_send{
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+    }
+  }
+
+  @media(max-width: 767px){
+    padding: 40px 15px;
+    .scroll-circle{
+      display: none;
+    }
+  }
+
+}
+
+.contact-left{
+  @media(max-width: 1024px){
+    margin-bottom: 30px;
+  }
+  .title-leave{
+    margin-bottom: 24px;
+    font-family: 'Clash';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 100%;
+    color: #fff;
+
+    transform: translateY(120%) rotate(5deg);
+    -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+    animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+
+    -webkit-animation-delay: .21s;
+    animation-delay: .21s;
+    span{
+      color: #F05225;
+    }
+    @media(max-width: 1440px){
+      font-size: 70px;
+    }
+    @media(max-width: 1024px){
+      font-size: 64px;
+    }
+
+  }
+  p{
+    margin-bottom: 100px;
+    font-family: 'Visby';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #888888;
+    @media(max-width: 1024px){
+      font-size: 16px;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #232323;
+    }
+  }
+}
+
+.contact-right{
+  h2{
+    font-family: 'Visby';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    @media(max-width: 767px){
+      font-size: 16px;
+    }
+
+  }
+  .nav{
+    margin-bottom: 50px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    .nav-item{
+      margin-right: 20px;
+      .nav-link{
+        background: transparent;
+        font-family: 'Visby';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding: 16px 32px;
+        border: 1px solid #232323;
+        border-radius: 50px;
+        white-space: nowrap;
+        @media(max-width: 1024px){
+          font-size: 18px;
+        }
+        &.active{
+          color: #F05225;
+          border-color: #F05225;;
+        }
+      }
+    }
+  }
+}
+
+.form_group{
+  margin-bottom: 40px;
+  input{
+    padding: 10px 0;
+    color: #FFFFFF;
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #232323;
+  }
+  label{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-family: 'Visby';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #585858;
+    transition: 0.3s;
+    pointer-events: none;
+    &.require:after{
+      content: '*';
+      color: #B62020;
+    }
+  }
+  input:focus ~ label, input.has-content ~ label{
+    top: -16px;
+    font-size: 12px;
+    color: #585858;
+  }
+}
+
+.add_file{
+  margin-bottom: 16px;
+  display: inline-block;
+  font-family: 'Visby';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  img{
+    vertical-align: -12px;
+    margin-right: 12px;
+  }
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.text_mute{
+  font-family: 'Visby';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+}
+.btn_send{
+  margin-top: 96px;
+  padding: 16px 24px;
+  display: inline-block;
+  border: 0;
+  background: #F05225;
+  border-radius: 50px;
+  outline: navajowhite;
+  color: #fff;
+  img{
+    vertical-align: 0;
+  }
+  @media(max-width: 767px){
+    margin-top: 30px;
+  }
+}
+
+.contact-bottom{
+  padding: 100px 0;
+  @media(max-width: 767px){
+    padding: 50px 0;
+  }
+  h3{
+    opacity: 0;
+    text-align: center;
+    font-family: 'Clash';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 120%;
+    /* identical to box height, or 144px */
+    white-space: nowrap;
+    text-transform: uppercase;
+
+    /* Neutral/900 */
+
+    color: #101010;
+
+
+    .star{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 150%;
+      /* identical to box height, or 48px */
+
+
+      /* Neutral/900 */
+
+      color: #101010;
+      vertical-align: 30px;
+      margin-right: 10px;
+    }
+    img{
+      vertical-align: bottom;
+    }
+    @media(max-width: 1440px){
+      font-size: 90px;
+    }
+    @media(max-width: 1024px){
+      font-size: 64px;
+      .star{
+        vertical-align: 10px;
+      }
+      img{
+        width: 100px;
+      }
+    }
+    @media(max-width: 767px){
+      font-size: 32px;
+      .star{
+        vertical-align: 10px;
+        font-size: 14px;
+      }
+      img{
+        width: 40px;
+      }
+    }
+
+  }
+  .hover{
+    span{
+      display: inline-block;
+      position: relative;
+      padding-bottom: 15px;
+      transition: all 0.15s linear;
+      &:before{
+        content: '';
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        width: 0;
+        transition: all 0.15s linear;
+        display: block;
+        position: absolute;
+        background: #F05225;
+      }
+      &:hover{
+        color: #F05225;
+        &:before{
+          width: 100%;
+        }
+      }
+    }
+
+  }
+  p{
+    margin-top: 50px;
+    font-family: 'Visby';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+
+    /* Neutral/600 */
+
+    color: #585858;
+    @media(max-width: 767px){
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  }
+  &.animated{
+    background: url("../images/service/draw.png") no-repeat center top 53%;
+    @media(max-width: 767px){
+      background: url("../images/service/draw.png") no-repeat center top 37%;
+      -webkit-background-size: 50%;
+      background-size: 50%;
+    }
+    h3{
+      opacity: 1;
+      transform: translateY(120%) rotate(5deg);
+      -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+      animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+      animation-delay: .1s;
+
+      img{
+        animation: 1s 1.5s ani-zoom forwards;
+      }
+    }
+  }
+}
+
+@keyframes ani-zoom {
+  0%, 100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
   }
 }

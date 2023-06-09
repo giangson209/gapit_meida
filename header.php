@@ -72,7 +72,7 @@
            <div class="content-menu-mb d-none">
                <div class="container">
                    <div class="top-menu-mb">
-                       <div class="logo"><a href=""><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
+                       <div class="logo"><a href="index.php"><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
                        <div class="btn-bar-menu">
                            <a href="javascript:void(0)">
                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,10 +96,10 @@
                    </div>
                    <div class="mm-menu-link">
                        <ul>
-                           <li><a href="">About us</a></li>
-                           <li><a href="">Work</a></li>
-                           <li><a href="">Service</a></li>
-                           <li><a href="">Blog</a></li>
+                           <li><a href="about.php">About us</a></li>
+                           <li><a href="work.php">Work</a></li>
+                           <li><a href="service.php">Service</a></li>
+                           <li><a href="blog.php">Blog</a></li>
                        </ul>
                    </div>
                    <div class="bot-mmenu">

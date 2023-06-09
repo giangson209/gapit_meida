@@ -50,10 +50,10 @@
         <div class="container">
             <div class="title-article">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-9">
                         <div class="head-title mb-0">Feature Article <span>/A few stories</span></div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3">
                         <div class="btn-title">
                             <a href="">ALL ARTICLES</a>
                         </div>
@@ -115,6 +115,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="btn-main text-center d-none"><a href="">ALL ARTICLES</a></div>
             </div>
         </div>
     </section>
@@ -130,5 +131,29 @@
         dots: true,
         nextArrow: '',
         prevArrow: '',
+        responsive: [
+            {
+                breakpoint: 1023,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1.2,
+                    slidesToScroll: 1,
+                    infinite: false,
+                }
+            },
+        ],
     });
 </script>
