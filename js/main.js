@@ -1,22 +1,7 @@
 $( document ).ready(function() {
-    // $("html").easeScroll({
-    //     frameRate: 60,
-    //     animationTime: 1200,
-    //     stepSize: 120,
-    //     pulseAlgorithm: 1,
-    //     pulseScale: 8,
-    //     pulseNormalize: 1,
-    //     accelerationDelta: 20,
-    //     accelerationMax: 1,
-    //     keyboardSupport: true,
-    //     arrowScroll: 100,
-    //     touchpadSupport: true,
-    //     fixedBackground: true
-    // });
 
     const lenis = new Lenis({
         duration: 1.2,
-        // easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     })
     function raf(time) {
         lenis.raf(time);
@@ -60,15 +45,15 @@ $( document ).ready(function() {
     }
     // end scroll header
 
-    var mousePressed = false;
-    $('.slide-many').mousedown(function() {
-        mousePressed = true;
-        $('#cursor').addClass('touch_cursor')
-    });
-    $('.slide-many').mouseup(function() {
-        mousePressed = false;
-        $('#cursor').removeClass('touch_cursor')
-    });
+    // var mousePressed = false;
+    // $('.slide-many').mousedown(function() {
+    //     mousePressed = true;
+    //     $('#cursor').addClass('touch_cursor')
+    // });
+    // $('.slide-many').mouseup(function() {
+    //     mousePressed = false;
+    //     $('#cursor').removeClass('touch_cursor')
+    // });
 
     document.addEventListener("mousemove", (ev) => {
         const x = ev.clientX,

@@ -61,7 +61,7 @@
                                <div class="right-menu">
                                    <ul>
                                        <li><a href="">VI / EN</a></li>
-                                       <li><a href="" class="contact-menu">CONTACT US</a></li>
+                                       <li><a href="contact.php" class="contact-menu">CONTACT US</a></li>
                                    </ul>
                                </div>
                            </div>
@@ -108,7 +108,7 @@
                            <p>gapit-hello@gmail.com</p>
                        </div>
                        <div class="right">
-                           <a href="">CONTAC US</a>
+                           <a href="contact.php">CONTAC US</a>
                        </div>
                    </div>
                </div>

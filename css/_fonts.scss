@@ -1,61 +1,7 @@
 @font-face {
     font-family: 'Visby';
-    src: url('../fonts/visby/VisbyBold.woff2') format('woff2'),
-    url('../fonts/visby/VisbyBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyThin.woff2') format('woff2'),
-    url('../fonts/visby/VisbyThin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyBoldItalic.woff2') format('woff2'),
-    url('../fonts/visby/VisbyBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyHeavy.woff2') format('woff2'),
-    url('../fonts/visby/VisbyHeavy.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyHeavyItalic.woff2') format('woff2'),
-    url('../fonts/visby/VisbyHeavyItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyExtraboldItalic.woff2') format('woff2'),
-    url('../fonts/visby/VisbyExtraboldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyItalic.woff2') format('woff2'),
-    url('../fonts/visby/VisbyItalic.woff') format('woff');
+    src: url('../fonts/visby/VisbyCF-RegularOblique.woff2') format('woff2'),
+    url('../fonts/visby/VisbyCF-RegularOblique.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -63,17 +9,8 @@
 
 @font-face {
     font-family: 'Visby';
-    src: url('../fonts/visby/VisbyLightItalic.woff2') format('woff2'),
-    url('../fonts/visby/VisbyLightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyExtrabold.woff2') format('woff2'),
-    url('../fonts/visby/VisbyExtrabold.woff') format('woff');
+    src: url('../fonts/visby/VisbyCF-Bold.woff2') format('woff2'),
+    url('../fonts/visby/VisbyCF-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -81,89 +18,44 @@
 
 @font-face {
     font-family: 'Visby';
-    src: url('../fonts/visby/VisbyLight.woff2') format('woff2'),
-    url('../fonts/visby/VisbyLight.woff') format('woff');
-    font-weight: 300;
+    src: url('../fonts/visby/VisbyCF-Medium.woff2') format('woff2'),
+    url('../fonts/visby/VisbyCF-Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Visby';
-    src: url('../fonts/visby/VisbySemiboldItalic.woff2') format('woff2'),
-    url('../fonts/visby/VisbySemiboldItalic.woff') format('woff');
+    src: url('../fonts/visby/VisbyCF-DemiBold.woff2') format('woff2'),
+    url('../fonts/visby/VisbyCF-DemiBold.woff') format('woff');
     font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyMediumItalic.woff2') format('woff2'),
-    url('../fonts/visby/VisbyMediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyMedium.woff2') format('woff2'),
-    url('../fonts/visby/VisbyMedium.woff') format('woff');
-    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Visby';
-    src: url('../fonts/visby/VisbyRegular.woff2') format('woff2'),
-    url('../fonts/visby/VisbyRegular.woff') format('woff');
+    src: url('../fonts/visby/VisbyCF-Heavy.woff2') format('woff2'),
+    url('../fonts/visby/VisbyCF-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Visby';
+    src: url('../fonts/visby/VisbyCF-Regular.woff2') format('woff2'),
+    url('../fonts/visby/VisbyCF-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbySemibold.woff2') format('woff2'),
-    url('../fonts/visby/VisbySemibold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Visby';
-    src: url('../fonts/visby/VisbyThinItalic.woff2') format('woff2'),
-    url('../fonts/visby/VisbyThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Clash';
-    src: url('../fonts/clash/ClashDisplay-Light.woff2') format('woff2'),
-    url('../fonts/clash/ClashDisplay-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Clash';
-    src: url('../fonts/clash/ClashDisplay-Medium.woff2') format('woff2'),
-    url('../fonts/clash/ClashDisplay-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Clash';
-    src: url('../fonts/clash/ClashDisplay-Extralight.woff2') format('woff2'),
-    url('../fonts/clash/ClashDisplay-Extralight.woff') format('woff');
+    src: url('../fonts/clash/SVN-ClashDisplay-Extralight.woff2') format('woff2'),
+    url('../fonts/clash/SVN-ClashDisplay-Extralight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -171,17 +63,17 @@
 
 @font-face {
     font-family: 'Clash';
-    src: url('../fonts/clash/ClashDisplay-Regular.woff2') format('woff2'),
-    url('../fonts/clash/ClashDisplay-Regular.woff') format('woff');
-    font-weight: normal;
+    src: url('../fonts/clash/SVN-ClashDisplay-Light.woff2') format('woff2'),
+    url('../fonts/clash/SVN-ClashDisplay-Light.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Clash';
-    src: url('../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
-    url('../fonts/clash/ClashDisplay-Bold.woff') format('woff');
+    src: url('../fonts/clash/SVN-ClashDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/clash/SVN-ClashDisplay-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -189,8 +81,26 @@
 
 @font-face {
     font-family: 'Clash';
-    src: url('../fonts/clash/ClashDisplay-Semibold.woff2') format('woff2'),
-    url('../fonts/clash/ClashDisplay-Semibold.woff') format('woff');
+    src: url('../fonts/clash/SVN-ClashDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/clash/SVN-ClashDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash';
+    src: url('../fonts/clash/SVN-ClashDisplay-Medium.woff2') format('woff2'),
+    url('../fonts/clash/SVN-ClashDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash';
+    src: url('../fonts/clash/SVN-ClashDisplay-Semibold.woff2') format('woff2'),
+    url('../fonts/clash/SVN-ClashDisplay-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;

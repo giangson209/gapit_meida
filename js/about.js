@@ -4,8 +4,8 @@ $(document).ready(function(){
     var controller = new ScrollMagic.Controller();
     new ScrollMagic.Scene({
         triggerElement: ".item-make",
-        duration: 800,
-        offset: -400,
+        duration: 1100,
+        offset: -500,
     })
         .setTween(".make-1", {x: "-=80%"})
         .addTo(controller);
@@ -13,8 +13,8 @@ $(document).ready(function(){
     var controller_1 = new ScrollMagic.Controller();
     new ScrollMagic.Scene({
         triggerElement: ".item-make",
-        duration: 900,
-        offset: -400,
+        duration: 1300,
+        offset: -500,
     })
         .setTween(".make-2", {x: "-=68%"})
         .addTo(controller_1);
@@ -23,8 +23,8 @@ $(document).ready(function(){
     var controller_2 = new ScrollMagic.Controller();
     new ScrollMagic.Scene({
         triggerElement: ".item-make",
-        duration: 900,
-        offset: -400,
+        duration: 1300,
+        offset: -500,
     })
         .setTween(".make-3", {x: "-=56%"})
         .addTo(controller_2);
@@ -32,8 +32,8 @@ $(document).ready(function(){
     var controller_3 = new ScrollMagic.Controller();
     new ScrollMagic.Scene({
         triggerElement: ".item-make",
-        duration: 900,
-        offset: -400,
+        duration: 1300,
+        offset: -500,
     })
         .setTween(".make-4", {x: "-=44%"})
         .addTo(controller_3);

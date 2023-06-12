@@ -3,11 +3,9 @@
     <section class="box-work-container">
         <div class="container">
             <div class="title-work-page">
-                <svg width="100" height="68" viewBox="0 0 100 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="34" cy="34" r="32" stroke="#F05225" stroke-width="4"/>
-                    <circle cx="50" cy="34" r="32" stroke="#F05225" stroke-width="4"/>
-                    <circle cx="66" cy="34" r="32" stroke="#F05225" stroke-width="4"/>
-                </svg>
+                <div class="icon">
+                    <lottie-player src="json/3circle.json" background="transparent" autoplay="1" speed="1"></lottie-player>
+                </div>
                 <span>Your  Story  Matters</span>
             </div>
             <div class="filter-work">

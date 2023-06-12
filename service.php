@@ -2,10 +2,13 @@
 <main id="scroll-container" class="scroll-container">
     <div class="container">
         <div class="service-head">
-            <div class="row align-items-end align-content-lg-center justify-content-between">
+            <div class="row align-items-center align-content-lg-center justify-content-between">
                 <div class="col-md-8">
                     <div class="service-title">
-                        <h1>Unlock  your Digital <br>Growth  Potentials</h1>
+                        <h1>
+                            <p><span>Unlock  your Digital</span></p>
+                            <p><span>Growth  Potentials</span></p>
+                        </h1>
                         <img class="papper" src="images/service/des1.png" alt="">
                     </div>
                 </div>
@@ -275,7 +278,7 @@
         <div class="container">
             <div class="service-works-head">
                 <h2>Works <span>/Feature Project</span></h2>
-                <a href="">ALL WORK</a>
+                <div class="btn-main"><a href="">ALL WORK</a></div>
             </div>
             <div class="row">
                 <div class="col-md-6">

@@ -134,6 +134,7 @@
       font-family: 'Visby';
       overflow: hidden;
       height: auto;
+      line-height: 1.3;
       @media (max-width: 1023px) {
         font-size: 14px;
         flex: 0 0 188px;
@@ -156,6 +157,7 @@
       position: absolute;
       left: -1.2%;
       top: -10%;
+      width: 55%;
       @media (max-width: 1023px) {
         width: 60%;
       }
@@ -234,13 +236,19 @@
     transform: scale(0);
     -webkit-animation: scale_btn 2.5s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
     animation: scale_btn 2.5s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+    position: relative;
+    top: -12px;
     @media (max-width: 1600px) {
       font-size: 18px;
       padding: 10px 32px 10px 10px;
+      top: -5px;
     }
     @media (max-width: 1023px) {
       padding: 8px 24px 8px 8px;
       font-size: 16px;
+    }
+    @media (max-width: 1200px) {
+      top: 0;
     }
     @media (max-width: 767px) {
       font-size: 12px;
@@ -310,6 +318,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Clash';
+    margin-bottom: 15px;
     @media (max-width: 1600px) {
       font-size: 66px;
     }
@@ -318,6 +327,7 @@
     }
     @media (max-width: 1023px) {
       font-size: 42px;
+      argin-bottom: 8px;
     }
     @media (max-width: 767px) {
       font-size: 32px;
@@ -329,6 +339,12 @@
       margin-bottom: 0;
       @media (max-width: 1023px) {
         font-size:32px;
+      }
+    }
+    svg {
+      @media (max-width: 767px) {
+        width: 16px;
+        height: auto;
       }
     }
   }
@@ -568,7 +584,6 @@
     margin-bottom: 24px;
     font-size: 28px;
     font-weight: 600;
-    line-height: 1.5;
     @media (max-width: 1023px) {
       font-size: 24px;
     }
@@ -655,7 +670,8 @@
   border-radius: 64px;
   background: #101010;
   position: relative;
-  overflow: hidden;
+  max-width: 1710px;
+  margin: 0 auto;
   @media (max-width: 1600px) {
     padding: 80px 0;
   }
@@ -676,6 +692,7 @@
     margin-top: 40px;
     padding-top: 40px;
     border-top: 1px solid #232323;
+    font-family: 'Visby';
     @media (max-width: 1023px) {
       margin-top: 24px;
       padding-top: 24px;

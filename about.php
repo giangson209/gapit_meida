@@ -1,4 +1,9 @@
 <?php include 'header.php';?>
+<style>
+    body, html {
+        overflow-x: hidden;
+    }
+</style>
 <main id="scroll-container" class="scroll-container">
     <section class="box-banner-about">
         <div class="container">
@@ -167,7 +172,7 @@
                         <div class="txt-become">
                             To become a "one-stop-shop" that helps businesses
                             <span>optimize time and cost <img src="images/icon-be.svg" class="img-fluid" alt=""></span>
-                            GAPIT Media was established and positioned as a Performance-based Creative Agency
+                            GAPIT Media was established and positioned as a Performance-Based Creative Agency
                         </div>
                         <div class="circle-become">
                             <div class="left-icon">
@@ -221,7 +226,7 @@
             <div class="title">
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <h3>
+                        <h3 class="text-capitalize">
                             <span>Many a little <br>makes a mickle</span>
                             <label>
                                 <lottie-player src="json/line-title.json" background="transparent" speed="1"></lottie-player>

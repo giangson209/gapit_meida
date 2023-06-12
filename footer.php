@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="avarta-fter text-center"><img src="images/footer.png" alt=""></div>
+                    <div class="avarta-fter text-center"><img src="images/footer.png" class="img-fluid" alt=""></div>
                 </div>
             </div>
         </div>

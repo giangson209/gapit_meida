@@ -1,21 +1,19 @@
 <?php include 'header.php';?>
 <main>
     <section class="box-banner-video">
-        <div class="container">
-            <div class="video-banner-home">
-                <div class="avarta"><img src="images/home/video.jpg" class="img-fluid w-100" alt=""></div>
-                <div class="btn-video">
-                    <ul>
-                        <li><a href="">RESOURCES</a></li>
-                        <li><a href="" class="out-service">
-                                <span>OUR SERVICE</span>
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.7998 7.19995L7.1998 16.8" stroke="#101010" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M16.7998 15.4285V7.19995H8.57123" stroke="#101010" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a></li>
-                    </ul>
-                </div>
+        <div class="video-banner-home">
+            <div class="avarta"><img src="images/home/video.jpg" class="img-fluid w-100" alt=""></div>
+            <div class="btn-video">
+                <ul>
+                    <li><a href="">RESOURCES</a></li>
+                    <li><a href="" class="out-service">
+                            <span>OUR SERVICE</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.7998 7.19995L7.1998 16.8" stroke="#101010" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.7998 15.4285V7.19995H8.57123" stroke="#101010" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a></li>
+                </ul>
             </div>
         </div>
     </section>
@@ -31,9 +29,10 @@
                     <p><span>PERFORMANCE-BASED</span></p>
                     <p><span>CREATIVE AGENCY</span></p>
                 </h2>
+                <div class="icon-abs"><img src="images/home/title-who.png" class="img-fluid" alt=""></div>
             </div>
             <div class="title text-center mb-0">
-                <div class="title-desc mb-0">GAPIT MEDIA is a member of GAPIT COMMUNICATIONS JOINT STOCK <br>COMPANY funded by DFJ VinaCapital.</div>
+                <div class="title-desc title-desc-bot mb-0">GAPIT MEDIA is a member of GAPIT COMMUNICATIONS JOINT STOCK <br>COMPANY funded by DFJ VinaCapital.</div>
             </div>
             <div class="list-number text-center">
                 <div class="row">
@@ -93,10 +92,10 @@
         <div class="container">
             <div class="title-works">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-6 col-6">
                         <div class="head-title mb-0">Works <span>/Featured Project</span></div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-6 col-6">
                         <div class="btn-title">
                             <a href="">ALL WORKS</a>
                         </div>
@@ -107,7 +106,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="work-feat-big">
-                            <div class="avarta"><a href=""><img src="images/home/wk-1.jpg" class="img-fluid w-100" alt=""></a></div>
+                            <div class="avarta cur-hover"><a href=""><img src="images/home/wk-1.jpg" class="img-fluid w-100" alt=""></a></div>
                             <div class="info">
                                 <h3><a href="">Vietinbank: Sống 1 đời có ‘’ lãi ‘’</a></h3>
                                 <div class="desc">Social Media, Press PR, Production of OOH products</div>
@@ -116,7 +115,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="work-feat-small">
-                            <div class="avarta"><a href=""><img src="images/home/wk-2.jpg" class="img-fluid w-100" alt=""></a></div>
+                            <div class="avarta cur-hover"><a href=""><img src="images/home/wk-2.jpg" class="img-fluid w-100" alt=""></a></div>
                             <div class="info">
                                 <h3><a href="">EZ Papa: Tayho x Chicco</a></h3>
                                 <div class="desc">Social Media, Press PR, Production of OOH products</div>
@@ -125,7 +124,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="work-feat-small">
-                            <div class="avarta"><a href=""><img src="images/home/wk-3.jpg" class="img-fluid w-100" alt=""></a></div>
+                            <div class="avarta cur-hover"><a href=""><img src="images/home/wk-3.jpg" class="img-fluid w-100" alt=""></a></div>
                             <div class="info">
                                 <h3><a href="">Vernal Edge</a></h3>
                                 <div class="desc">Social Media, Press PR, Production of OOH products</div>
@@ -179,14 +178,220 @@
             </div>
         </div>
     </section>
-    <section class="box-outservice">
+
+
+
+
+    <section class="features show-pc">
         <div class="container">
-            <div class="title text-center">
-                <div class="desc-title text-uppercase">[ oUR SERVICES ]</div>
-                <h3><span>Strategic  Planning</span></h3>
+            <div class="top-outservice text-center">
+                <label class="text-uppercase">[ oUR SERVICES ]</label>
+                <div class="list-head-feat text-capitalize">
+                    <h4 data-head="text-1" class="head-feat active"><span>Strategic  Planning</span></h4>
+                    <h4 data-head="text-2" class="head-feat"><span>Creative solution</span></h4>
+                    <h4 data-head="text-3" class="head-feat"><span>media booking</span></h4>
+                    <h4 data-head="text-4" class="head-feat"><span>Digital Performance</span></h4>
+                    <h4 data-head="text-5" class="head-feat"><span>Events & Campaign</span></h4>
+                    <h4 data-head="text-6" class="head-feat"><span>Influential Marketing</span></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 features-col features-col--text c-white">
+                    <div class="features-text-wrapper">
+                        <div class="feature__info active" id="text-1">
+                            <div class="desc-out">
+                                Effective strategy planning and reasonable resource allocation on the basis of understanding the business and customers
+                            </div>
+                            <div class="icon-outs">
+                                <a href="">
+                                    <svg width="82" height="83" viewBox="0 0 82 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="41" cy="41.6719" r="40.5" stroke="#E7E7E7"/>
+                                        <circle opacity="0.5" cx="40.9996" cy="41.672" r="33.9" stroke="#B7B7B7"/>
+                                        <path d="M48.2002 34.7998L33.8002 49.1998" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M48.2002 47.1427V34.7998H35.8573" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Read More</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="feature__info" id="text-2">
+                            <div class="desc-out">
+                                Impress customers with creative, design, innovative imagery and narratives.
+                            </div>
+                            <div class="icon-outs">
+                                <a href="">
+                                    <svg width="82" height="83" viewBox="0 0 82 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="41" cy="41.6719" r="40.5" stroke="#E7E7E7"/>
+                                        <circle opacity="0.5" cx="40.9996" cy="41.672" r="33.9" stroke="#B7B7B7"/>
+                                        <path d="M48.2002 34.7998L33.8002 49.1998" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M48.2002 47.1427V34.7998H35.8573" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Read More</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="feature__info" id="text-3">
+                            <div class="desc-out">
+                                Maximize the brand display and the company's story on OOH, Billboards, Television & Press channels with an optimized budget.
+                            </div>
+                            <div class="icon-outs">
+                                <a href="">
+                                    <svg width="82" height="83" viewBox="0 0 82 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="41" cy="41.6719" r="40.5" stroke="#E7E7E7"/>
+                                        <circle opacity="0.5" cx="40.9996" cy="41.672" r="33.9" stroke="#B7B7B7"/>
+                                        <path d="M48.2002 34.7998L33.8002 49.1998" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M48.2002 47.1427V34.7998H35.8573" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Read More</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="feature__info" id="text-4">
+                            <div class="desc-out">
+                                Optimize human resources, save costs, reach more potential customers and meet your business goals.
+                            </div>
+                            <div class="icon-outs">
+                                <a href="">
+                                    <svg width="82" height="83" viewBox="0 0 82 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="41" cy="41.6719" r="40.5" stroke="#E7E7E7"/>
+                                        <circle opacity="0.5" cx="40.9996" cy="41.672" r="33.9" stroke="#B7B7B7"/>
+                                        <path d="M48.2002 34.7998L33.8002 49.1998" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M48.2002 47.1427V34.7998H35.8573" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Read More</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="feature__info" id="text-5">
+                            <div class="desc-out">
+                                Draw customers’ attention by implementing creative and engaging experiences to raise brand awareness, increase customer engagement and sale revenue
+                            </div>
+                            <div class="icon-outs">
+                                <a href="">
+                                    <svg width="82" height="83" viewBox="0 0 82 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="41" cy="41.6719" r="40.5" stroke="#E7E7E7"/>
+                                        <circle opacity="0.5" cx="40.9996" cy="41.672" r="33.9" stroke="#B7B7B7"/>
+                                        <path d="M48.2002 34.7998L33.8002 49.1998" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M48.2002 47.1427V34.7998H35.8573" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Read More</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="feature__info" id="text-6">
+                            <div class="desc-out">
+                                Optimize human resources, save costs, reach more potential customers and meet your business goals.
+                            </div>
+                            <div class="icon-outs">
+                                <a href="">
+                                    <svg width="82" height="83" viewBox="0 0 82 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="41" cy="41.6719" r="40.5" stroke="#E7E7E7"/>
+                                        <circle opacity="0.5" cx="40.9996" cy="41.672" r="33.9" stroke="#B7B7B7"/>
+                                        <path d="M48.2002 34.7998L33.8002 49.1998" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M48.2002 47.1427V34.7998H35.8573" stroke="#101010" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Read More</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 features-col features-col--imgs text-center">
+
+                    <div class="feature__img-wrapper" data-box="text-1">
+                        <div class="img-overlay"></div>
+                        <div class="avar-our"><img src="images/out-1.png" alt=""></div>
+                    </div>
+                    <div class="feature__img-wrapper" data-box="text-2">
+                        <div class="img-overlay"></div>
+                        <div class="avar-our"><img src="images/out-2.png" alt=""></div>
+                    </div>
+                    <div class="feature__img-wrapper" data-box="text-3">
+                        <div class="img-overlay"></div>
+                        <div class="avar-our"><img src="images/out-3.png" alt=""></div>
+                    </div>
+                    <div class="feature__img-wrapper" data-box="text-4">
+                        <div class="img-overlay"></div>
+                        <div class="avar-our"><img src="images/out-4.png" alt=""></div>
+                    </div>
+                    <div class="feature__img-wrapper" data-box="text-5">
+                        <div class="img-overlay"></div>
+                        <div class="avar-our"><img src="images/out-5.png" alt=""></div>
+                    </div>
+                    <div class="feature__img-wrapper" data-box="text-6">
+                        <div class="img-overlay"></div>
+                        <div class="avar-our"><img src="images/out-6.png" alt=""></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="box-ourservice d-none">
+        <div class="container">
+            <div class="head-title text-center">Our Service <span>/What we good </span></div>
+            <div class="list-outservice">
+                <div class="item-outservice">
+                    <div class="icon">
+                        <div class="avr"><img src="images/out-1.png" class="img-fluid" alt=""></div>
+                    </div>
+                    <div class="info">
+                        <h3>Strategic Planning</h3>
+                        <div class="desc">Effective strategy planning and reasonable resource allocation on the basis of understanding the business and customers</div>
+                    </div>
+                </div>
+                <div class="item-outservice">
+                    <div class="icon">
+                        <div class="avr"><img src="images/out-2.png" class="img-fluid" alt=""></div>
+                    </div>
+                    <div class="info">
+                        <h3>Creative Solution</h3>
+                        <div class="desc">Impress customers with creative, design, innovative imagery and narratives.</div>
+                    </div>
+                </div>
+                <div class="item-outservice">
+                    <div class="icon">
+                        <div class="avr"><img src="images/out-3.png" class="img-fluid" alt=""></div>
+                    </div>
+                    <div class="info">
+                        <h3>Strategic Planning</h3>
+                        <div class="desc">Effective strategy planning and reasonable resource allocation on the basis of understanding the business and customers</div>
+                    </div>
+                </div>
+                <div class="item-outservice">
+                    <div class="icon">
+                        <div class="avr"><img src="images/out-4.png" class="img-fluid" alt=""></div>
+                    </div>
+                    <div class="info">
+                        <h3>Media Booking</h3>
+                        <div class="desc">Maximize the brand display and the company's story on OOH, Billboards, Television & Press channels with an optimized budget.</div>
+                    </div>
+                </div>
+                <div class="item-outservice">
+                    <div class="icon">
+                        <div class="avr"><img src="images/out-5.png" class="img-fluid" alt=""></div>
+                    </div>
+                    <div class="info">
+                        <h3>Digital Performance</h3>
+                        <div class="desc">Optimize human resources, save costs, reach more potential customers and meet your business goals.</div>
+                    </div>
+                </div>
+                <div class="item-outservice">
+                    <div class="icon">
+                        <div class="avr"><img src="images/out-6.png" class="img-fluid" alt=""></div>
+                    </div>
+                    <div class="info">
+                        <h3>Strategic Planning</h3>
+                        <div class="desc">Effective strategy planning and reasonable resource allocation on the basis of understanding the business and customers</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="box-ourclient">
         <div class="container">
             <div class="head-title text-center">Our Client <span>/That we works with</span></div>
@@ -234,13 +439,11 @@
         <div class="container">
             <div class="title-article">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-9">
                         <div class="head-title mb-0">Feature Article <span>/A few stories</span></div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="btn-title">
-                            <a href="">ALL ARTICLES</a>
-                        </div>
+                    <div class="col-md-3">
+                        <div class="btn-title"><a href="">ALL ARTICLES</a></div>
                     </div>
                 </div>
             </div>
