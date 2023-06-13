@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="title-who text-center">
-                <h2>
+                <h2 class="title-scroll-animate">
                     <p><span>PERFORMANCE-BASED</span></p>
                     <p><span>CREATIVE AGENCY</span></p>
                 </h2>

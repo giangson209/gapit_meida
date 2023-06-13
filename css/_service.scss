@@ -486,6 +486,8 @@
 }
 
 .contact-right{
+  max-width: 867px;
+  margin-left: auto;
   h2{
     font-family: 'Visby';
     font-style: normal;
@@ -731,6 +733,26 @@
 
       img{
         animation: 1s 1.5s ani-zoom forwards;
+      }
+    }
+    div {
+      &:nth-child(2) {
+        h3 {
+          -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.8s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+          animation: SplitText_moveIn__1NMON-d168662b 1.8s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+        }
+      }
+      &:nth-child(3) {
+        h3 {
+          -webkit-animation: SplitText_moveIn__1NMON-d168662b 2.1s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+          animation: SplitText_moveIn__1NMON-d168662b 2.1s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+        }
+      }
+      &:nth-child(4) {
+        h3 {
+          -webkit-animation: SplitText_moveIn__1NMON-d168662b 2.4s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+          animation: SplitText_moveIn__1NMON-d168662b 2.4s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
+        }
       }
     }
   }

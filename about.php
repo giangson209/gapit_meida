@@ -62,8 +62,9 @@
         <div class="container">
             <div class="title text-center">
                 <div class="title-desc">Numbers speak louder than words</div>
-                <h3 class="anm">
-                    <span>Celebrate the great milestones <br> Keep up the good work</span>
+                <h3 class="anm title-scroll-animate">
+                    <p><span>Celebrate the great milestones</span></p>
+                    <p><span>Keep up the good work</span></p>
                 </h3>
             </div>
             <div class="list-number">

@@ -206,7 +206,7 @@
     <div class="contact-bottom anm">
         <div class="container">
             <div style="overflow: hidden">
-                <h3><span class="star">[***]</span>Keep In touch <img src="images/service/ar-r.png" alt=""></h3>
+                <h3><span class="star">[***]</span>Keep In touch <img src="images/service/arr-r.svg" alt=""></h3>
             </div>
             <div style="overflow: hidden">
                 <h3>with gapit media</h3>
@@ -252,7 +252,7 @@
                 if (($animatable.offset().top + $animatable.height() - 20) < offset) {
                     $animatable.addClass('animated');
                 } else {
-                    $animatable.removeClass('animated');
+                    // $animatable.removeClass('animated');
                 }
             });
         };

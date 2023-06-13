@@ -1,6 +1,30 @@
 
 $(document).ready(function(){
 
+    const images = $('.slide-many');
+    for (const image of images) {
+        image.addEventListener("mouseenter", (ev) => {
+            gsap.to("#cursor", {
+                duration: 0.2,
+                scale: 10,
+                onComplete: function() {
+                    // $('#cursor').addClass('active');
+                }
+            });
+        });
+        image.addEventListener("mouseleave", (ev) => {
+            gsap.to("#cursor", {
+                duration:0,
+                width: 12,
+                height: 12,
+                scale: 1,
+                onComplete: function() {
+                    // $('#cursor').removeClass('active');
+                }
+            });
+        });
+    }
+
     var controller = new ScrollMagic.Controller();
     new ScrollMagic.Scene({
         triggerElement: ".item-make",
@@ -102,26 +126,5 @@ $(document).ready(function(){
         }
     }
 
-    jQuery(function($) {
-        var doAnimations = function() {
-            var offset = $(window).scrollTop() + $(window).height(),
-                $animatables = $('.anm');
-            if ($animatables.length == 0) {
-                $(window).off('scroll', doAnimations);
-            }
-            $animatables.each(function(i) {
-                var $animatable = $(this);
-                if (($animatable.offset().top + $animatable.height() - 20) < offset) {
-                    $animatable.addClass('animated');
-                } else {
-                    $animatable.removeClass('animated');
-                }
-            });
-        };
-        $(window).on('scroll', doAnimations);
-        $(window).trigger('scroll');
-    });
-    window.addEventListener('load', videoScroll);
-    window.addEventListener('scroll', videoScroll);
 });
 

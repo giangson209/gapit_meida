@@ -773,7 +773,7 @@ main {
   height: 12px;
   pointer-events: none;
   user-select: none;
-  z-index: 1001;
+  z-index: 1001222;
   border-radius: 100%;
   transition: 0.15s all !important;
 }
@@ -842,6 +842,35 @@ main {
   color: #fff;
 }
 
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.cursor-bee {
+  top: -15px;
+  left: -13px;
+  z-index: -1;
+  opacity: 0 !important;
+}
+
+.cursor-eye {
+  top: -50px;
+  left: -50px;
+  padding: 20px;
+  z-index: 1111111;
+  border-radius: 50%;
+  background-color: var(--darkblue);
+}
+
+.cur-hover {
+  cursor: none;
+}
+.cur-hover a {
+  cursor: none;
+}
+
 .title {
   margin-bottom: 64px;
   position: relative;
@@ -902,20 +931,6 @@ main {
     font-size: 32px;
   }
 }
-.title h3.anm {
-  opacity: 0;
-}
-.title h3.animated {
-  opacity: 1;
-}
-.title h3.animated span {
-  display: inline-flex;
-  position: relative;
-  z-index: 2;
-  transform: translateY(120%) rotate(5deg);
-  -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
-  animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
-}
 
 .btn-main a {
   border: 1px solid #E7E7E7;
@@ -936,6 +951,37 @@ main {
   background: #F05225 !important;
   color: #fff !important;
   border: 1px solid #F05225 !important;
+}
+
+.title-scroll-animate {
+  position: relative;
+}
+.title-scroll-animate p, .title-scroll-animate h3 {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.title-scroll-animate p span, .title-scroll-animate h3 span {
+  display: inline-flex;
+  position: relative;
+  z-index: 2;
+  transform: translateY(120%) rotate(5deg);
+}
+.title-scroll-animate p.animated span, .title-scroll-animate h3.animated span {
+  -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+  animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+}
+.title-scroll-animate p.animated:nth-child(2) span, .title-scroll-animate h3.animated:nth-child(2) span {
+  -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.8s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+  animation: SplitText_moveIn__1NMON-d168662b 1.8s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+}
+.title-scroll-animate p.animated:nth-child(3) span, .title-scroll-animate h3.animated:nth-child(3) span {
+  -webkit-animation: SplitText_moveIn__1NMON-d168662b 2.1s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+  animation: SplitText_moveIn__1NMON-d168662b 2.1s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+}
+.title-scroll-animate p.animated:nth-child(4) span, .title-scroll-animate h3.animated:nth-child(4) span {
+  -webkit-animation: SplitText_moveIn__1NMON-d168662b 2.4s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+  animation: SplitText_moveIn__1NMON-d168662b 2.4s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
 }
 
 @-webkit-keyframes SplitText_moveIn__1NMON-d168662b {
@@ -1035,7 +1081,7 @@ main {
   font-size: 140px;
   font-weight: 500;
   text-transform: uppercase;
-  line-height: initial;
+  line-height: 1.2;
 }
 @media (max-width: 1600px) {
   .txt-about-banner .title-caption {
@@ -1295,13 +1341,8 @@ main {
 
 .box-number {
   padding: 164px 0;
-  font-size: 24px;
+  font-size: 20px;
   color: #585858;
-}
-@media (max-width: 1600px) {
-  .box-number {
-    font-size: 20px;
-  }
 }
 @media (max-width: 1023px) {
   .box-number {
@@ -1340,6 +1381,7 @@ main {
 
 .item-number {
   font-weight: 500;
+  color: #585858;
 }
 @media (max-width: 767px) {
   .item-number {
@@ -1766,13 +1808,12 @@ main {
 }
 .box-become span img {
   position: relative;
-  top: -10px;
+  top: -3px;
   margin-left: 6px;
 }
 @media (max-width: 1023px) {
   .box-become span img {
     height: 20px;
-    top: -5px;
     margin-left: 0;
   }
 }
@@ -2286,6 +2327,8 @@ main {
   border: 1px solid #E7E7E7;
   height: 64px;
   font-size: 16px;
+  font-weight: 600;
+  line-height: initial;
 }
 .video-banner-home .btn-video a.out-service {
   background: #fff;
@@ -2310,12 +2353,11 @@ main {
 }
 .box-whoareyou .list-number {
   margin-top: 80px;
-  font-size: 24px;
+  font-size: 20px;
 }
 @media (max-width: 1023px) {
   .box-whoareyou .list-number {
     margin-top: 0;
-    font-size: 20px;
   }
 }
 
@@ -2692,6 +2734,8 @@ main {
   padding: 140px 0;
   color: #fff;
   border-radius: 64px;
+  max-width: 1710px;
+  margin: 0 auto;
 }
 @media (max-width: 1023px) {
   .content-miss {
@@ -3003,10 +3047,14 @@ main {
   left: 0;
   text-align: center;
   position: absolute;
+  opacity: 0;
 }
 .top-outservice .list-head-feat h4.active {
   top: 0;
   position: relative;
+  opacity: 1;
+  -webkit-animation: SplitText_moveIn__1NMON-d168662b 0.7s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+  animation: SplitText_moveIn__1NMON-d168662b 0.7s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
 }
 
 .box-ourservice {
@@ -4061,6 +4109,10 @@ main {
     display: block;
   }
 }
+.title-work-page lottie-player {
+  height: 66px;
+  width: auto;
+}
 
 .title-detail-wk h1 {
   padding: 40px 0 42px 0;
@@ -4839,6 +4891,10 @@ main {
   }
 }
 
+.contact-right {
+  max-width: 867px;
+  margin-left: auto;
+}
 .contact-right h2 {
   font-family: "Visby";
   font-style: normal;
@@ -5089,6 +5145,18 @@ main {
 }
 .contact-bottom.animated h3 img {
   animation: 1s 1.5s ani-zoom forwards;
+}
+.contact-bottom.animated div:nth-child(2) h3 {
+  -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.8s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+  animation: SplitText_moveIn__1NMON-d168662b 1.8s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+}
+.contact-bottom.animated div:nth-child(3) h3 {
+  -webkit-animation: SplitText_moveIn__1NMON-d168662b 2.1s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+  animation: SplitText_moveIn__1NMON-d168662b 2.1s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+}
+.contact-bottom.animated div:nth-child(4) h3 {
+  -webkit-animation: SplitText_moveIn__1NMON-d168662b 2.4s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+  animation: SplitText_moveIn__1NMON-d168662b 2.4s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
 }
 
 @keyframes ani-zoom {

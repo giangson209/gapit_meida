@@ -88,6 +88,12 @@
             </svg>
         </div>
     </div>
+    <div class="cursor cursor-eye">
+        <img width="80" height="80" src="images/cursor-view.svg" alt="">
+    </div>
+    <div class="cursor cursor-bee">
+        <img width="30" height="26" src="https://assets.codepen.io/162656/cursor-bee.svg" alt="">
+    </div>
 </footer>
 <script type="text/javascript" src="js/lib/jquery.easeScroll.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>

@@ -2,11 +2,11 @@
 <main>
     <section class="box-work-container">
         <div class="container">
-            <div class="title-work-page">
+            <div class="title-work-page title-scroll-animate">
                 <div class="icon">
                     <lottie-player src="json/3circle.json" background="transparent" autoplay="1" speed="1"></lottie-player>
                 </div>
-                <span>Your  Story  Matters</span>
+                <p><span>Your  Story  Matters</span></p>
             </div>
             <div class="filter-work">
                 <div class="txt-filter-left">
@@ -28,7 +28,7 @@
                     for ($x = 1; $x <= 10; $x++) { ?>
                         <div class="col-md-6">
                             <div class="item-work">
-                                <div class="avarta"><a href="work-detail.php"><img src="images/work/wk-<?php echo $x ?>.png" class="img-fluid w-100" alt=""></a></div>
+                                <div class="avarta cur-hover"><a href="work-detail.php"><img src="images/work/wk-<?php echo $x ?>.png" class="img-fluid w-100" alt=""></a></div>
                                 <div class="info">
                                     <h3><a href="work-detail.php">Vernal Edge</a></h3>
                                     <p>Conmunications, Spatial Design</p>
@@ -43,3 +43,57 @@
     </section>
 </main>
 <?php include 'footer.php';?>
+<script>
+    const cursorBee = document.querySelector(".cursor-bee");
+    const cursorEye = document.querySelector(".cursor-eye");
+    let scale = 1;
+    function mousemoveHandler(e) {
+        const target = e.target;
+        const tl = gsap.timeline({
+            defaults: {
+                x: e.clientX,
+                y: e.clientY,
+                ease: "power2.out"
+            }
+        });
+        // JUST FOR MY LOGO
+        if (
+            target.closest(".page-footer") ||
+            target.classList.contains("page-footer")
+        ) {
+            gsap.to(".cursor", {
+                opacity: 0
+            });
+            return;
+        }
+        if (target.tagName.toLowerCase() === "img" && target.closest(".cur-hover")) {
+            tl.to(cursorBee, {
+                opacity: 0
+            }).to(
+                cursorEye,
+                {
+                    opacity: 1
+                },
+                "-=0.5"
+            );
+        } else {
+            tl.to(cursorBee, {
+                opacity: 1,
+                scale: scale
+            }).to(
+                cursorEye,
+                {
+                    opacity: 0
+                },
+                "-=0.5"
+            );
+        }
+    }
+    function mouseleaveHandler() {
+        gsap.to(cursorBee, {
+            opacity: 0
+        });
+    }
+    document.addEventListener("mousemove", mousemoveHandler);
+    document.addEventListener("mouseleave", mouseleaveHandler);
+</script>

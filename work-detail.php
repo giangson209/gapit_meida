@@ -202,7 +202,7 @@
                 <div class="title-article">
                     <div class="row align-items-center">
                         <div class="col-md-9">
-                            <div class="head-title mb-0">Work <span>//Feature Project</span></div>
+                            <div class="head-title mb-0">Work <span>/Feature Project</span></div>
                         </div>
                         <div class="col-md-3">
                             <div class="btn-main text-right">
@@ -214,14 +214,14 @@
                 <div class="list-article">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="box_work mb-0">
+                            <div class="box_work mb-0 cur-hover">
                                 <a class="box_work_thumb" href=""><img src="images/service/1.png" alt=""></a>
                                 <h3><a href="">Vernal Edge</a></h3>
                                 <p>Conmunications, Spatial Design</p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="box_work mb-0">
+                            <div class="box_work mb-0 cur-hover">
                                 <a class="box_work_thumb" href=""><img src="images/service/2.png" alt=""></a>
                                 <h3><a href="">Vernal Edge</a></h3>
                                 <p>Conmunications, Spatial Design</p>
@@ -244,4 +244,63 @@
         nextArrow: '',
         prevArrow: '',
     });
+
+    const cursorBee = document.querySelector(".cursor-bee");
+    const cursorEye = document.querySelector(".cursor-eye");
+    let scale = 1;
+    function mousemoveHandler(e) {
+        const target = e.target;
+        const tl = gsap.timeline({
+            defaults: {
+                x: e.clientX,
+                y: e.clientY,
+                ease: "power2.out"
+            }
+        });
+        // JUST FOR MY LOGO
+        if (
+            target.closest(".page-footer") ||
+            target.classList.contains("page-footer")
+        ) {
+            gsap.to(".cursor", {
+                opacity: 0
+            });
+            return;
+        }
+        if (target.tagName.toLowerCase() === "img" && target.closest(".cur-hover")) {
+            tl.to(cursorBee, {
+                opacity: 0
+            }).to(
+                cursorEye,
+                {
+                    opacity: 1
+                },
+                "-=0.5"
+            );
+        } else {
+            if (target.classList.contains("line-animation")) {
+                scale = 4;
+            } else {
+                scale = 1;
+            }
+
+            tl.to(cursorBee, {
+                opacity: 1,
+                scale: scale
+            }).to(
+                cursorEye,
+                {
+                    opacity: 0
+                },
+                "-=0.5"
+            );
+        }
+    }
+    function mouseleaveHandler() {
+        gsap.to(cursorBee, {
+            opacity: 0
+        });
+    }
+    document.addEventListener("mousemove", mousemoveHandler);
+    document.addEventListener("mouseleave", mouseleaveHandler);
 </script>

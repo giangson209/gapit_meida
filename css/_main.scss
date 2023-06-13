@@ -51,7 +51,7 @@
     font-size: 140px;
     font-weight: 500;
     text-transform: uppercase;
-    line-height: initial;
+    line-height: 1.2;
     @media (max-width: 1600px) {
       font-size: 110px;
     }
@@ -271,11 +271,8 @@
 
 .box-number {
   padding: 164px 0;
-  font-size: 24px;
+  font-size: 20px;
   color: #585858;
-  @media (max-width: 1600px) {
-    font-size: 20px;
-  }
   @media (max-width: 1023px) {
     padding: 32px 0 40px 0;
   }
@@ -306,6 +303,7 @@
 }
 .item-number {
   font-weight: 500;
+  color: #585858;
   @media (max-width: 767px) {
     font-size: 14px;
   }
@@ -653,11 +651,10 @@
     color: $oran;
     img {
       position: relative;
-      top: -10px;
+      top: -3px;
       margin-left: 6px;
       @media (max-width: 1023px) {
         height: 20px;
-        top: -5px;
         margin-left: 0;
       }
     }

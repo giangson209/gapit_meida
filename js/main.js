@@ -1,5 +1,25 @@
 $( document ).ready(function() {
 
+    jQuery(function($) {
+        var doAnimations = function() {
+            var offset = $(window).scrollTop() + $(window).height(),
+                $animatables = $('.title-scroll-animate p');
+            if ($animatables.length == 0) {
+                $(window).off('scroll', doAnimations);
+            }
+            $animatables.each(function(i) {
+                var $animatable = $(this);
+                if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+                    $animatable.addClass('animated');
+                } else {
+                    // $animatable.removeClass('animated');
+                }
+            });
+        };
+        $(window).on('scroll', doAnimations);
+        $(window).trigger('scroll');
+    });
+
     const lenis = new Lenis({
         duration: 1.2,
     })
@@ -64,27 +84,27 @@ $( document ).ready(function() {
             y
         });
     });
-    const images = $('.slide-many');
-    for (const image of images) {
-        image.addEventListener("mouseenter", (ev) => {
-            gsap.to("#cursor", {
-                duration: 0.25,
-                width: 120,
-                height: 120,
-                onComplete: function() {
-                    $('#cursor').addClass('active');
-                }
-            });
-        });
-        image.addEventListener("mouseleave", (ev) => {
-            gsap.to("#cursor", {
-                duration:0,
-                width: 12,
-                height: 12,
-                onComplete: function() {
-                    $('#cursor').removeClass('active');
-                }
-            });
-        });
-    }
+    // const images = $('.slide-many');
+    // for (const image of images) {
+    //     image.addEventListener("mouseenter", (ev) => {
+    //         gsap.to("#cursor", {
+    //             duration: 0.25,
+    //             width: 120,
+    //             height: 120,
+    //             onComplete: function() {
+    //                 $('#cursor').addClass('active');
+    //             }
+    //         });
+    //     });
+    //     image.addEventListener("mouseleave", (ev) => {
+    //         gsap.to("#cursor", {
+    //             duration:0,
+    //             width: 12,
+    //             height: 12,
+    //             onComplete: function() {
+    //                 $('#cursor').removeClass('active');
+    //             }
+    //         });
+    //     });
+    // }
 });

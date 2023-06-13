@@ -40,7 +40,7 @@
   height: 12px;
   pointer-events: none;
   user-select: none;
-  z-index: 1001;
+  z-index: 1001222;
   border-radius: 100%;
   transition: .15s all !important;
   .ar-cur {
@@ -116,6 +116,34 @@
     }
   }
 }
+
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.cursor-bee {
+  top: -15px;
+  left: -13px;
+  z-index: -1;
+  opacity: 0 !important;
+}
+
+.cursor-eye {
+  top: -50px;
+  left: -50px;
+  padding: 20px;
+  z-index: 1111111;
+  border-radius: 50%;
+  background-color: var(--darkblue);
+}
+.cur-hover {
+  cursor: none;
+  a {
+    cursor: none;
+  }
+}
 .title {
   margin-bottom: 64px;
   position: relative;
@@ -160,20 +188,6 @@
     @media (max-width: 767px) {
       font-size: 32px;
     }
-    &.anm {
-      opacity: 0;
-    }
-    &.animated {
-      opacity: 1;
-      span {
-        display: inline-flex;
-        position: relative;
-        z-index: 2;
-        transform: translateY(120%) rotate(5deg);
-        -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
-        animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(.53,0,0,1) 0s 1 normal forwards running;
-      }
-    }
   }
 }
 
@@ -194,6 +208,45 @@
       background: $oran !important;
       color: #fff !important;
       border: 1px solid $oran !important;
+    }
+  }
+}
+
+.title-scroll-animate {
+  position: relative;
+  p, h3 {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    span {
+      display: inline-flex;
+      position: relative;
+      z-index: 2;
+      transform: translateY(120%) rotate(5deg);
+    }
+    &.animated {
+      span {
+        -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+        animation: SplitText_moveIn__1NMON-d168662b 1.5s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+      }
+      &:nth-child(2) {
+        span {
+          -webkit-animation: SplitText_moveIn__1NMON-d168662b 1.8s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+          animation: SplitText_moveIn__1NMON-d168662b 1.8s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+        }
+      }
+      &:nth-child(3) {
+        span {
+          -webkit-animation: SplitText_moveIn__1NMON-d168662b 2.1s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+          animation: SplitText_moveIn__1NMON-d168662b 2.1s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+        }
+      }
+      &:nth-child(4) {
+        span {
+          -webkit-animation: SplitText_moveIn__1NMON-d168662b 2.4s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+          animation: SplitText_moveIn__1NMON-d168662b 2.4s cubic-bezier(0.53, 0, 0, 1) 0s 1 normal forwards running;
+        }
+      }
     }
   }
 }
